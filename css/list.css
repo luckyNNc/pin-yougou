@@ -1,0 +1,108 @@
+.sk{
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 2px 0 0 12px;
+}
+
+.nav{
+    overflow: hidden;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e90a';
+    font-family: 'icomoon';
+}
+.sk_bd ul li{
+    position: relative;
+
+    float: left;
+    width: 291px;
+    height: 460px;
+    margin-right: 12px;
+    margin-top: 10px;
+    padding: 0 3px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+}
+.sk_bd ul li a{
+    display: block;
+}
+.sk_bd ul li a p{
+    font-size: 14px;
+    color: #666;
+}
+.price{
+    margin: 10px 0;
+}
+.price span:first-child{
+    font-size: 22px;
+    color: #e60012;
+}
+.price span:last-child{
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.stock span{
+    font-size: 14px;
+    color: #666;
+}
+.progress{
+    display: inline-block;
+    width: 135px;
+    height: 14px;
+    border: 1px solid #e60012;
+    border-radius: 7px;
+    margin: 0 8px;
+    padding: 2px;
+}
+.progress .p_c{
+    width: 117px;
+    height: 100%;
+    background-color: #e60012;
+
+}
+.sk_bot{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
